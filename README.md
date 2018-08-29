@@ -2,13 +2,13 @@
 ## Command line instructions
 ``` shell
 git global setup
-git config --global user.name "Robin Augstburger"
-git config --global user.email "robin.augstburger@edu.tbz.ch" 
+git config --global user.name "<username>"
+git config --global user.email "<mail>"
 ```
 
 ## Create a new repository
 ```shell
-git clone git@gitlab.com:robin.augstburger/M300.git
+git clone git@gitlab.com:git@github.com:SiRCrocodile/M300_BIST.git
 cd M300
 touch README.md
 git add README.md
@@ -20,7 +20,7 @@ git push -u origin master
 ```shell
 cd existing_folder
 git init
-git remote add origin git@gitlab.com:robin.augstburger/M300.git
+git remote add origin git@github.com:SiRCrocodile/M300_BIST.git
 git add .
 git commit -m "Initial commit"
 git push -u origin master
@@ -30,7 +30,7 @@ git push -u origin master
 ```shell
 cd existing_repo
 git remote rename origin old-origin
-git remote add origin git@gitlab.com:robin.augstburger/M300.git
+git remote add origin git@github.com:SiRCrocodile/M300_BIST.git
 git push -u origin --all
 git push -u origin --tags
 ```
