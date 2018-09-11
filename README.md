@@ -33,5 +33,5 @@ git remote rename origin old-origin
 git remote add origin git@github.com:SiRCrocodile/M300_BIST.git
 git push -u origin --all
 git push -u origin --tags
-
 ```
+©D.Zelger
