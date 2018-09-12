@@ -85,15 +85,15 @@ cd existing_folder
 vagrant up --provider virtualbox
 vagrant ssh
 ```
-### Auf VM zugreifen
+#### Auf VM zugreifen
 ```shell
 vagrant ssh
 ```
-### Zugriff auf VM beenden
+#### Zugriff auf VM beenden
 ```shell
 exit
 ```
-### VM herunterfahren 
+#### VM herunterfahren 
 ```shell
 vagrant halt
 ```
