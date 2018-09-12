@@ -38,33 +38,30 @@ sudo shutdown –h now - Stoppen des Betriebssystems.
 ```
 
 **Dateien bearbeiten und Filesystem**
-```shell
-ls, rm, mv, cd - Anzeigen, löschen, verschieben von Dateien und Wechsel Verzeichnis
-nano oder [vi](http://debiananwenderhandbuch.de/vi.html) - Texteditoren
-df –h, free –m, w - Diskbelegung, Speicherbelegung, Auslastung CPU
-```
+
+```ls, rm, mv, cd ``` Anzeigen, löschen, verschieben von Dateien und Wechsel Verzeichnis
+```nano oder [vi](http://debiananwenderhandbuch.de/vi.html)```Texteditoren
+```df –h, free –m, w``` Diskbelegung, Speicherbelegung, Auslastung CPU
+
 
 **Netzwerk**
-```shell
-ifconfig – Ausgabe der eigenen IP-Adresse
-netstat -a oder netstat -tulpen - Ausgabe der verwendeten Network Ports
-net lookup <hostname> - IP-Adresse für Hostname ausgeben.
-```
+
+```ifconfig``` Ausgabe der eigenen IP-Adresse
+``` netstat -a oder netstat -tulpen ``` Ausgabe der verwendeten Network Ports
+```net lookup <hostname>``` IP-Adresse für Hostname ausgeben.
+
 
 **Prozesse**
-```shell
-ps -ef oder top - Anzeige der aktiven Prozesse
-kill <pid> - Prozess laut Prozess-Id (Nummer) beenden
-```
-ps -ef oder top - Anzeige der aktiven Prozesse
-kill <pid> - Prozess laut Prozess-Id (Nummer) beenden
+
+```ps -ef oder top``` Anzeige der aktiven Prozesse
+``` kill <pid>``` Prozess laut Prozess-Id (Nummer) beenden
 
 **Hilfsprogramme**
-```shell
-curl http://<server> - Aufruf einer Webseite oder eines HTTP REST Services
-wget http://<server>/<datei> - kopieren einer Datei von einem Webserver
-dos2unix <Datei> - Datei vom DOS ins UNIX/Linux Format umwandeln. Wird immer dann benötigt wenn eine Datei von Windows nach Linux kopiert wird und überflüssige CR enthält.
-```
+
+```curl http://<server>``` Aufruf einer Webseite oder eines HTTP REST Services
+```wget http://<server>/<datei>``` kopieren einer Datei von einem Webserver
+```dos2unix <Datei>``` Datei vom DOS ins UNIX/Linux Format umwandeln. Wird immer dann benötigt wenn eine Datei von Windows nach     Linux kopiert wird und überflüssige CR enthält.
+
 
 
 
