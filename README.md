@@ -82,8 +82,25 @@ vagrant up --provider virtualbox
 #### Bestehende VM starten
 ```shell
 cd existing_folder
-vagrant init ubuntu/xenial64
 vagrant up --provider virtualbox
+vagrant ssh
+```
+### Auf VM zugreifen
+```shell
+vagrant ssh
+```
+### Zugriff auf VM beenden
+```shell
+exit
+```
+### VM herunterfahren 
+```shell
+vagrant halt
+```
+
+#### VM löschen
+```shell
+vagrant destroy -f
 ```
 
 
