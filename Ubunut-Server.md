@@ -38,30 +38,31 @@ sudo shutdown –h now - Stoppen des Betriebssystems.
 ```
 
 **Dateien bearbeiten und Filesystem**
-
-```ls, rm, mv, cd ``` Anzeigen, löschen, verschieben von Dateien und Wechsel Verzeichnis
-```nano oder [vi](http://debiananwenderhandbuch.de/vi.html)```Texteditoren
-```df –h, free –m, w``` Diskbelegung, Speicherbelegung, Auslastung CPU
-
+```shell
+ls, rm, mv, cd - Anzeigen, löschen, verschieben von Dateien und Wechsel Verzeichnis
+nano oder [vi](http://debiananwenderhandbuch.de/vi.html) - Texteditoren
+df –h, free –m, w - Diskbelegung, Speicherbelegung, Auslastung CPU
+```
 
 **Netzwerk**
-
-```ifconfig``` Ausgabe der eigenen IP-Adresse
-``` netstat -a oder netstat -tulpen ``` Ausgabe der verwendeten Network Ports
-```net lookup <hostname>``` IP-Adresse für Hostname ausgeben.
-
+```shell
+ifconfig – Ausgabe der eigenen IP-Adresse
+netstat -a oder netstat -tulpen - Ausgabe der verwendeten Network Ports
+net lookup <hostname> - IP-Adresse für Hostname ausgeben.
+```
 
 **Prozesse**
-
-```ps -ef oder top``` Anzeige der aktiven Prozesse
-``` kill <pid>``` Prozess laut Prozess-Id (Nummer) beenden
+```shell
+ps -ef oder top - Anzeige der aktiven Prozesse
+kill <pid> - Prozess laut Prozess-Id (Nummer) beenden
+```
 
 **Hilfsprogramme**
-
-```curl http://<server>``` Aufruf einer Webseite oder eines HTTP REST Services
-```wget http://<server>/<datei>``` kopieren einer Datei von einem Webserver
-```dos2unix <Datei>``` Datei vom DOS ins UNIX/Linux Format umwandeln. Wird immer dann benötigt wenn eine Datei von Windows nach     Linux kopiert wird und überflüssige CR enthält.
-
+```shell
+curl http://<server> - Aufruf einer Webseite oder eines HTTP REST Services
+wget http://<server>/<datei> - kopieren einer Datei von einem Webserver
+dos2unix <Datei> - Datei vom DOS ins UNIX/Linux Format umwandeln. Wird immer dann benötigt wenn eine Datei von Windows nach Linux kopiert wird und überflüssige CR enthält.
+```
 
 
 
