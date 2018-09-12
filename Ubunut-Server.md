@@ -21,10 +21,10 @@ Beim Netzwerk ist unter NAT der Port 80 als Weiterleitung zu Port 8080 (Host) ei
 4. "Erweitert"
 5. "Portweiterleitung"
    
-![Portweiterleitung](/Bilder/Portweiterleitung.png | width=100 | height=100)
+![Portweiterleitung](/Bilder/Portweiterleitung.png | width=100)
 
 6. Eintrag wie im Bild hinzufügen 
    
-![Portweiterleitung2](/Bilder/Portweiterleitung2.png | width=100 | height=100)
+![Portweiterleitung2](/Bilder/Portweiterleitung2.png | width=100)
 
 © D.Zelger 
