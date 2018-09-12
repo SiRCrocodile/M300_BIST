@@ -85,6 +85,7 @@ cd existing_folder
 vagrant up --provider virtualbox
 vagrant ssh
 ```
+s
 #### Auf VM zugreifen
 ```shell
 vagrant ssh
