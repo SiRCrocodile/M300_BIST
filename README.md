@@ -86,7 +86,7 @@ vagrant up --provider virtualbox
 vagrant ssh
 ```
 
-#### Auf VM zugreifen
+#### Auf VM zugreifen
 ```shell
 vagrant ssh
 ```
