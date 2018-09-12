@@ -43,7 +43,7 @@ git remote add origin git@github.com:SiRCrocodile/M300_BIST.git
 git push -u origin --all
 git push -u origin --tags
 ```
-###* Git- Befehlsreihenfolge
+### Git- Befehlsreihenfolge
 ```shell
 1. git status
 2. git add -A
