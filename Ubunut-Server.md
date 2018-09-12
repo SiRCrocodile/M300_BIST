@@ -64,6 +64,40 @@ wget http://<server>/<datei> - kopieren einer Datei von einem Webserver
 dos2unix <Datei> - Datei vom DOS ins UNIX/Linux Format umwandeln. Wird immer dann benötigt wenn eine Datei von Windows nach Linux kopiert wird und überflüssige CR enthält.
 ```
 
+## Advanced Packaging Tool (APT)
+Das Advanced Packaging Tool (APT) ist ein Paketverwaltungssystem, das im Bereich des Betriebssystems Debian GNU/Linux entstanden ist und dpkg zur eigentlichen Paketverwaltung benutzt. Ziel ist es, eine einfache Möglichkeit zur Suche, Installation und Aktualisierung von Programmpaketen zur Verfügung zu stellen. APT besteht aus einer Programmbibliothek und mehreren diese Bibliothek nutzenden Kommandozeilen-Programmen, von denen apt-get und apt-cache zentral sind. Seit Debian 3.1 wird die Benutzung von aptitude als konsolenbasierendes Paketverwaltungssystem empfohlen.
 
+### Nützliche Befehle
+```shell
+sudo apt-get update- Repositories aktualisieren
+sudo apt-get -y install apache2 - Webserver Apache installieren
+sudo apt-get -y upgrade- bestehende Software aktualisieren
+sudo apt-get -y autoremove - Aufräumen, nicht mehr benötigte Software entfernen
+sudo apt-cache search [keyword] - Suchen nach einem bestimmen Programmpaket.
+sudo dpkg -i [Programmpaket] - Installieren eines vorher downloadeten Programmpaketes
+```
+
+## REST
+![REST](/Bilder/REST.png)
+Representational State Transfer (abgekürzt REST, seltener auch ReST) bezeichnet ein Programmierparadigma für verteilte Systeme.
+REST ist eine Abstraktion der Struktur und des Verhaltens des World Wide Web (HTTP GET, PUT, POST, DELETE).
+REST hat das Ziel, einen Architekturstil zu schaffen, der die Anforderungen des modernen Web besser darstellt. Dabei unterscheidet sich REST vor allem in der Forderung nach einer einheitlichen Schnittstelle von anderen Architekturstilen.
+
+##CGI Script
+Das Common Gateway Interface (CGI) ist ein Standard für den Datenaustausch zwischen einem Webserver und dritter Software, die Anfragen bearbeitet. CGI ist eine schon länger bestehende Variante, Webseiten dynamisch bzw. interaktiv zu machen, deren erste Überlegungen auf das Jahr 1993 zurückgehen.
+
+### Installation
+CGI Script (siehe unten) mit dem Namen "rest" im CGI-Verzeichnis des Web Servers (/usr/lib/cgi-bin) anlegen/kopieren und Verzeichnis /var/www/html/data mit Zugriffsrechten des Web Servers Users anlegen.
+
+```shell
+sudo mkdir /usr/lib/cgi-bin/rest
+sudo cd /usr/lib/cgi-bin/rest
+sudo nano rest.txt
+sudo mkdir /var/www/html/data
+sudo chown www-data:www-data /var/www/html/data
+sudo chmod +x /usr/lib/cgi-bin/rest
+sudo apt-get install dos2unix
+sudo dos2unix /usr/lib/cgi-bin/rest
+```
 
 © D.Zelger 
