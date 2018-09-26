@@ -11,7 +11,7 @@ nano Vagrantfile
 vagrant up
 ''
 
-Dazu einen neuen Ordner am gwewünschten Ort erstellen. Dann in den Ordenr wechseln und mit "vagrant init" ein neues File erstellen. Im Vagrantfile folgenede Zeilen einfügen (Das File findet man auch im Ordner "[File](../M300_BIST/Files/)"):
+Dazu einen neuen Ordner am gwewünschten Ort erstellen. Dann in den Ordenr wechseln und mit "vagrant init" ein neues File erstellen. Im Vagrantfile folgenede Zeilen einfügen (Das File findet man auch im Ordner "[File](...SiRCrocodile//M300_BIST/Files/)"):
 
 !Achtung: Das Vagrantfile verweist auf ein anderes File welches dafür sorgt das der Webserver auch installiert wird.
 
@@ -27,7 +27,7 @@ Vagrant.configure("2") do |config|
     end
 end
 ```
-Das Bootstrap.sh-File beinhaltet folgende Zeilen (Das File findet man auch im Ordner "[File](../M300_BIST/Files/)"):
+Das Bootstrap.sh-File beinhaltet folgende Zeilen (Das File findet man auch im Ordner "[File](..SiRCrocodile//M300_BIST/Files/)"):
 
 ```shell
 #!/usr/bin/env bash
