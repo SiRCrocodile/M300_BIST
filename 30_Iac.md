@@ -11,7 +11,7 @@ nano Vagrantfile
 vagrant up
 ''
 
-Dazu einen neuen Ordner am gwewünschten Ort erstellen. Dann in den Ordenr wechseln und mit "vagrant init" ein neues File erstellen. Im Vagrantfile folgenede Zeilen einfügen (Das File findet man auch im Ordner "[File](...SiRCrocodile//M300_BIST/Files/)"):
+Dazu einen neuen Ordner am gwewünschten Ort erstellen. Dann in den Ordenr wechseln und mit "vagrant init" ein neues File erstellen. Im Vagrantfile folgenede Zeilen einfügen (Das File findet man auch im Ordner "[`File`](../blob/master/Files/)"):
 
 !Achtung: Das Vagrantfile verweist auf ein anderes File welches dafür sorgt das der Webserver auch installiert wird.
 
@@ -27,7 +27,7 @@ Vagrant.configure("2") do |config|
     end
 end
 ```
-Das Bootstrap.sh-File beinhaltet folgende Zeilen (Das File findet man auch im Ordner "[File](..SiRCrocodile//M300_BIST/Files/)"):
+Das Bootstrap.sh-File beinhaltet folgende Zeilen (Das File findet man auch im Ordner "[`File`](../blob/master/Files/)"):
 
 ```shell
 #!/usr/bin/env bash
@@ -41,5 +41,7 @@ fi
 ```
 Bevor die VM gestartet werden kann, sollte man im Verzeichnis noch einen Ordner mit dem Namen "html" erstellen. In disem Ordner könnt ihr nun sämtliche File für euren Webserver ablegen. Diese wird dann automatisch mit Apache synchronisiert.
 Sind diese beiden Files erstellt und angepasst sind, kann man diese Speichern und mit dem Befehl "vagrant up" die VM starten. Ist dieser Vorgang abgeschlossen, sollte auf die Website über "localhost:8080" aufgerufen werden.
+
+[`Weiter Hilfe`](https://www.vagrantup.com/intro/getting-started/index.html)
 
 © D.Zelger 
