@@ -41,3 +41,5 @@ fi
 ```
 Bevor die VM gestartet werden kann, sollte man im Verzeichnis noch einen Ordner mit dem Namen "html" erstellen. In disem Ordner könnt ihr nun sämtliche File für euren Webserver ablegen. Diese wird dann automatisch mit Apache synchronisiert.
 Sind diese beiden Files erstellt und angepasst sind, kann man diese Speichern und mit dem Befehl "vagrant up" die VM starten. Ist dieser Vorgang abgeschlossen, sollte auf die Website über "localhost:8080" aufgerufen werden.
+
+© D.Zelger 
